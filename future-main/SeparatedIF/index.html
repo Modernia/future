@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <!--
+	# 프로젝트명 : [팀빌딩 Round2]팀 포스터 만들기
+	# 파일설명 : 팀 포스터를 만들기 위한 프롬프트 기획
+	# 파일버전 : 0.1.0
+	# 생성일 : 2025.05.31
+	# 생성자 : 김선미(온다)
+	# 수정일 : -2025-12-11
+	# 수정자 : -김연후
+	# 작업내용 :없음
+	-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/guide/favicon.ico">
+    <link rel="icon" type="image/png" sizes="200x200" href="resources/img/guide/favicon_200.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--부트스트랩 css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--폰트어썸 css-->
+    <link rel="stylesheet" href=" resources/css/my/youmu.css"> <!--메인 검색용 css-->
+    <title>수원특례시청</title>
+    <!-- <link href="resources/css/pattern.css" type="text/css" rel="stylesheet" /> -->
+    <style>
+        /* iframe 스타일링 */
+        #header-frame,
+        #footer-frame {
+            width: 100%;
+            border: none;
+            display: block;
+            overflow: hidden;
+        }
+
+        #header-frame {
+            height: 200px;
+            /* 헤더 높이에 맞게 조정 */
+        }
+
+        #footer-frame {
+            height: 400px;
+            /* 푸터 높이에 맞게 조정 */
+        }
+    </style>
+    <script>
+        // iframe 높이 자동 조절
+        function resizeIframe(iframe) {
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- 헤더 iframe -->
+        <iframe id="header-frame" src="header.html" onload="resizeIframe(this)" scrolling="no"></iframe>
+
+        <!-- 컨테이너 영역 -->
+        <div id="container">
+            <!-- //SWNOW -->
+            <div class="container">
+                <div class="container-fluid py-5 px-lg-5">
+                    <div class="row">
+
+                        <div class="col-lg-3 mb-4 mb-lg-0">
+                            <div class="d-flex align-items-center gap-2 mb-4">
+                                <i class="fa-solid fa-bell fs-4 text-brand" style="color: darkblue;"></i>
+                                <h4 class="m-0 fw-bold text-dark">
+                                    <span style="color: darkblue;">수원은</span> <span
+                                        style="color:rgb(1, 95, 1)">지금</span>
+                                </h4>
+                            </div>
+
+                            <nav class="nav flex-column gap-2">
+                                <a class="nav-link active ps-0 linkf" href="#">시정소식</a>
+                                <a class="nav-link ps-0 linkf" href="#">일자리소식</a>
+                                <a class="nav-link ps-0 linkf" href="#">보도자료</a>
+                                <a class="nav-link ps-0 linkf" href="#">신청접수</a>
+                                <a class="nav-link ps-0 linkf" href="#">정보통통</a>
+                                <a class="nav-link ps-0 linkf" href="#">공고/고시</a>
+                            </nav>
+                        </div>
+
+                        <div class="col-lg-9 position-relative">
+
+                            <div class="d-flex justify-content-end align-items-center gap-3 mb-3">
+                                <button class="btn btn-link text-secondary p-0"><i
+                                        class="fa-solid fa-chevron-left"></i></button>
+                                <span class="text-muted fw-light">|</span>
+                                <button class="btn btn-link text-secondary p-0"><i
+                                        class="fa-solid fa-chevron-right"></i></button>
+                                <button class="btn btn-circle shadow-sm border-0"><i
+                                        class="fa-solid fa-plus"></i></button>
+                            </div>
+
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+
+                                <div class="col">
+                                    <div class="card custom-card border-0 shadow-sm h-100 rounded-4 p-4">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                                <div class="text-start">
+                                                    <div class="small text-muted">2025.12</div>
+                                                    <div class="fs-2 fw-bold text-dark lh-1">10</div>
+                                                </div>
+                                                <span class="badge bg-transparent text-dark fs-6 fw-normal p-0">
+                                                    창업지원팀
+                                                </span>
+                                            </div>
+                                            <h5 class="card-title fw-bold mt-3 mb-3 text-clamp-2" >
+                                                수원시, 시민과 함께하는 도시 재생 사업 공모
+                                            </h5>
+                                            <p class="card-text text-secondary small text-clamp-2">
+                                                시민의 삶의 질 향상과 지속 가능한 도시 환경 조성을 위한 공모사업 안내입니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card custom-card card-highlight border-0 shadow-sm h-100 rounded-4 p-4">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                                <div>
+                                                    <div class="small text-muted">2025.12</div>
+                                                    <div class="fs-2 fw-bold text-dark lh-1">09</div>
+                                                </div>
+                                                <span class="badge bg-transparent text-dark fs-6 fw-normal p-0">
+                                                    환경정책과
+                                                </span>
+                                            </div>
+                                            <h5 class="card-title fw-bold mt-3 mb-3 text-clamp-2" >
+                                                겨울철 미세먼지 저감 대책, 시민 참여 캠페인 실시
+                                            </h5>
+                                            <p class="card-text text-secondary small text-clamp-2">
+                                                모두가 깨끗한 공기를 마실 수 있도록 차량 2부제 및 난방 온도 낮추기 동참을 부탁드립니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card custom-card border-0 shadow-sm h-100 rounded-4 p-4">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                                <div>
+                                                    <div class="small text-muted">2025.12</div>
+                                                    <div class="fs-2 fw-bold text-dark lh-1">09</div>
+                                                </div>
+                                                <span class="badge bg-transparent text-dark fs-6 fw-normal p-0">
+                                                    복지정책실
+                                                </span>
+                                            </div>
+                                            <h5 class="card-title fw-bold mt-3 mb-3 text-clamp-2" >
+                                                취약계층을 위한 따뜻한 겨울나기 지원 사업 확대 안내
+                                            </h5>
+                                            <p class="card-text text-secondary small text-clamp-2">
+                                                난방비, 식료품 등 긴급 지원이 필요한 가정을 위한 특별 지원 신청 기간을 연장합니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card custom-card border-0 shadow-sm h-100 rounded-4 p-4">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                                <div>
+                                                    <div class="small text-muted">2025.12</div>
+                                                    <div class="fs-2 fw-bold text-dark lh-1">09</div>
+                                                </div>
+                                                <span class="badge bg-transparent text-dark fs-6 fw-normal p-0">
+                                                    도시계획과
+                                                </span>
+
+                                            </div>
+                                            <h5 class="card-title fw-bold mt-3 mb-3 text-clamp-2" >
+                                                수원시민 대상 신규 공공 도서관 건립 예정지 공청회 개최
+                                            </h5>
+                                            <p class="card-text text-secondary small text-clamp-2">
+                                                시민 의견 수렴을 위한 공청회 일정 및 장소를 확인하시고 많은 참여 바랍니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--swa-->
+                    <div class="container my-5 p-4 rounded-2 shadow-sm custom-bg">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div class="d-flex align-items-center">
+                                <div class="me-3">
+                                    <img src="resources/img/image.png" alt="채용 정보 아이콘"
+                                        style="width: 50px; height: 50px;">
+                                </div>
+                                <div>
+                                    <span class="fs-4 fw-bolder" style="color: #134979;">채용정보</span>
+                                    <span class="ms-2 text-secondary">수원시 일자리정보 모여라!</span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="d-flex justify-content-end align-items-center gap-3 mb-3">
+                                    <button class="btn btn-link text-secondary p-0"><i
+                                            class="fa-solid fa-chevron-left"></i></button>
+                                    <span class="text-muted fw-light">|</span>
+                                    <button class="btn btn-link text-secondary p-0"><i
+                                            class="fa-solid fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row g-4">
+                            <div class="col-md-3">
+                                <div class="job-card h-100 border shadow-sm">
+                                    <div class="card-body p-1">
+                                        <div class="d-flex align-items-baseline mb-2">
+                                            <span class="fw-bold fs-3 date-num me-2"
+                                                style="font-family: Arial, sans-serif;">11</span>
+                                            <small class="text-muted">2025.12</small>
+                                        </div>
+                                        <p class="card-text fw-bold text-clamp-2">
+                                            수원시 공공기관 청년 인턴 채용 공고 (총 5명)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="job-card h-100 border shadow-sm">
+                                   <div class="card-body p-1">
+                                        <div class="d-flex align-items-baseline mb-2">
+                                            <span class="fw-bold fs-3 date-num me-2"
+                                                style="font-family: Arial, sans-serif;">11</span>
+                                            <small class="text-muted">2025.12</small>
+                                        </div>
+                                        <p class="card-text fw-bold text-clamp-2">
+                                            사회복지사 3급 이상 상시 채용 (구청 소속)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="job-card h-100 border shadow-sm">
+                                  <div class="card-body p-1">
+                                        <div class="d-flex align-items-baseline mb-2">
+                                            <span class="fw-bold fs-3 date-num me-2"
+                                                style="font-family: Arial, sans-serif;">11</span>
+                                            <small class="text-muted">2025.12</small>
+                                        </div>
+                                        <p class="card-text fw-bold text-clamp-2">
+                                            시설관리공단 환경미화원 모집 (계약직)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="job-card h-100 border shadow-sm">
+                                   <div class="card-body p-1">
+                                        <div class="d-flex align-items-baseline mb-2">
+                                            <span class="fw-bold fs-3 date-num me-2"
+                                                style="font-family: Arial, sans-serif;">11</span>
+                                            <small class="text-muted">2025.12</small>
+                                        </div>
+                                        <p class="card-text fw-bold text-clamp-2">
+                                            지역아동센터 돌봄교사 기간제 채용
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <!--SWNOW 끝 -->
+
+                    <!-- 푸터 iframe -->
+                    <iframe id="footer-frame" src="footer.html" onload="resizeIframe(this)" scrolling="no"></iframe>
+                </div>
+
+                <!-- 스크립트 : 라이브러리 -->
+                <script src="resources/js/pattern/jquery.min.js"></script>
+
+                <!-- 스크립트 : 패턴 페이지 -->
+
+                <script src="resources/js/pattern/ui-pattern-script.js"></script>
+
+
+                <!-- 스크립트 : 컴포넌트 -->
+                <script src="resources/js/component/ui-script.js"></script>
+</body>
+
+</html>

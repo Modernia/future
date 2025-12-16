@@ -1,0 +1,61 @@
+/*
+# 프로젝트명 : [팀빌딩 Round2]팀 포스터 만들기
+# 파일설명   : 팀 포스터 개성 디자인 (member1 전용)
+# 파일버전   : 0.2.0
+# 생성일     : 2025.12.11
+# 수정일     : 2025.12.11
+# 생성자     : 김선미(온다)
+# 수정자     : 김연후
+# 작업내용   : 시각 디자인 중심 리팩토링, 접근성 & 가독성 강화
+*/
+       .job-card:hover{
+		transform: translateY(-5px);
+		transform: scale(1.07);
+	   }
+	   
+        .btn-swipe {
+            width: 40px; 
+            height: 40px;
+            border-radius: 8px; 
+            border: 1px solid #ddd; 
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-swipe:hover {
+            background-color: #eee;
+        }
+        .btn-swipe-active {
+            border: 1px solid #333; 
+        }
+        .job-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+			 transition: transform 0.2s;
+            cursor: pointer;
+        }
+        .job-card .date-num {
+            color: #1e88e5;
+        }
+        .custom-card {
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+	.custom-card:hover{
+		transform: translateY(-5px);
+		transform: scale(1.07);
+	}
+	
+	a.linkf:hover{scale: 1.1; color:black}
+
+.custom-bg {
+            background-color: #fdfdfa; 
+        }
+
+     .card-title, .card-text {
+    word-break: keep-all;
+    word-wrap: break-word;
+}
